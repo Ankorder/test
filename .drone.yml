@@ -1,0 +1,8 @@
+workspace:
+    base: /src
+    path: test
+
+pipeline:
+    build:
+        image: docker
+        command: echo HI THERE
